@@ -1,0 +1,80 @@
+@font-face { 
+    font-family: 'armymax'; 
+    src: url('armalite.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 100;
+    }
+
+@font-face { 
+    font-family: 'gunplay3d'; 
+    src: url('gunplay3d.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face { 
+    font-family: 'gunplayrg'; 
+    src: url('gunplayrg.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face { 
+    font-family: 'army'; 
+    src: url('army.ttf') format('alltype'); 
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face { 
+    font-family: 'army_hollow'; 
+    src: url('Army_Hollow.ttf') format('alltype'); 
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face { 
+    font-family: 'Bebas Neue'; 
+    src: url('BebasNeue-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 100;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header, footer{
+    background-image: url("../../images/backgrounds/tarn-3525461_1920.jpg");
+    /* background-color: darkolivegreen; */
+    height: 150px;
+}
+
+.logo {
+    height: 90px;
+    margin: 0 10px 0 10px;
+    /* float: left; */
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.navbar ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    margin: 50px 30px 50px 30px;
+    display: block;
+    text-decoration: none;
+    float: left;
+}
+.navbar ul li{
+    text-align: center;
+    display: inline;
+}
+
+
